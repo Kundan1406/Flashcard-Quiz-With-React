@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+    <style>
+    body {
+      background-image: url('https://images.unsplash.com/photo-1516397281156-ca07cf9746fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    
+font-family:cursive;
+font-style:italic;
+}
+.icon-bar {
+width: 100%; 
+background-image: url('https://images.unsplash.com/photo-1539628399213-d6aa89c93074?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+overflow: auto; 
+}
+
+.icon-bar a {
+float: left; 
+text-align: center; 
+width: 16.5%; 
+padding: 12px 0; 
+transition: all 0.3s ease; 
+color: rgb(255, 255, 255); 
+font-size: 40px; 
+}
+
+.icon-bar a:hover {
+background-color:rgb(122, 223, 152); 
+}
+
+.active {
+background-color:rgb(61, 170, 189); 
+}
+h1{
+  
+  font-weight:1000;
+}
+</style>
+  </head>
+  <body >
+   <!-- <h1 style="color:black;">FlashCard-Quizzz App</h1>-->
+    <div class="icon-bar">
+      <a class="active" href="file:///C:/Users/hp/OneDrive/Desktop/comment.html"><i class="fa fa-home"></i></a>
+      <a href="https://www.google.com/"><i class="fa fa-search"></i></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i class="fa fa-envelope"></i></a>
+      <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"></i></a>
+      <a href="file:///C:/Users/hp/OneDrive/Desktop/comment.html"><i class="fa fa-comments-o"></i></a>
+      <a href="file:///C:/Users/hp/OneDrive/Desktop/thumbsup.html"><i class="fa fa-thumbs-o-up"></i></a>
+    </div>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
